@@ -1,0 +1,22 @@
+{
+    "name": "monocle",
+    "displayName": "Monocle",
+    "description": "Dark theme for the scheming programmer",
+    "version": "0.0.1",
+    "publisher": "GameUp",
+    "engines": {
+        "vscode": "^1.26.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Monocle",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Monocle-color-theme.json"
+            }
+        ]
+    }
+}
