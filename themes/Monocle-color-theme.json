@@ -195,7 +195,36 @@
 			"settings": {
 				"foreground": "#505F79",
 			}
+		},
+		{
+			"scope": "punctuation.definition.comment",
+			"settings": {
+				"fontStyle": "bold",
+			}
+		},
+		{
+			"name": "Python source",
+			"scope": "source.python",
+			"settings": {
+				"foreground": "#94a3ba"
+			}
+		},
+		{
+			"scope": "keyword.control.import.python",
+			"name": "Python Import",
+			"settings": {
+				"foreground": "#ae81ff",
+			}
+		},
+		{
+			"scope": "punctuation.separator.period",
+			"name": "dot separator",
+			"settings": {
+				"foreground": "#f8f8f2",
+				"fontStyle": "bold"
+			}
 		}
+
 	],
 	"colors": {
 		"editor.background": "#0A090F",
